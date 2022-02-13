@@ -93,9 +93,9 @@
 
                 //5点だけで平均をとる。
                 $avg = $this->point;
-                $centerSize = round($size/$avg);
-                $centerx = array($centerSize*3,$centerSize*3,$centerSize*3,0,$size);//中、上,下,左,右
-                $centery = array($centerSize*3,0,$size,$centerSize*3,$centerSize*3);//中、上,下,左,右
+                $centerPos = round(($size/$avg)*2.5);
+                $centerx = array($centerPos,$centerPos,$centerPos,0,$size);//中、上,下,左,右
+                $centery = array($centerPos,0,$size,$centerPos,$centerPos);//中、上,下,左,右
 
                 for($k = 0; $k < $avg; ++$k) {
                     for($l = 0; $l < $avg; ++$l) {
