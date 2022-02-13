@@ -3,7 +3,7 @@
  
 # Features
  
-GDライブラリを使用したモザイク処理
+平均化フィルタモザイク処理
  
 # Requirement
 * PHP 7 >= 7.2.0  
