@@ -26,7 +26,6 @@ http://hogehoge/index.php
  - **data/define.php**　定義ファイルなので適切なものに差し替えてください。
 
 # License
-ライセンスを明示する
- 
+
 "hackImageLibrary" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
  
